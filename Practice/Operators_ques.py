@@ -74,3 +74,8 @@ if(list1 == list2):
 str = str.strip()
 if("Pro" in str):
     print("true")
+
+
+
+
+    
