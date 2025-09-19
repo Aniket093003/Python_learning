@@ -9,7 +9,7 @@ print(secont_element)
 
 # How do you change the first element of a list to "orange"?
 list[0] = "orange"
-print(list) 
+print(li) 
 
 # How can you find the length of a list?
 print("length of list is =",len(list))
@@ -57,4 +57,3 @@ print("decending order =", sorted(list2, reverse=True))
 
 list.sort()
 print(list)
-
