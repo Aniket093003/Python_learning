@@ -42,12 +42,15 @@
 # print(fact(20))
 
 
-lst = [1,2,3,4,5,6,7]
 
-def rec_fn(lst, idx=0):
+# lst = [1,2,3,4,5,6,7]
 
-    if (idx == len(lst)):
-        return
-    print(lst[idx])
-    rec_fn(lst, idx+1)
-rec_fn(lst)
+# def rec_fn(lst, idx=0):
+
+#     if (idx == len(lst)):
+#         return
+#     print(lst[idx])
+#     rec_fn(lst, idx+1)
+# rec_fn(lst)
+
+
