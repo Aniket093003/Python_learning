@@ -165,10 +165,100 @@
 # print(is_prime)
 
 #  Check if all elements in a list are unique. If a duplicate is found, exit the loop and print the duplicate.
-items = ["apple", "banana", "orange", "apple", "mango"]
-unique_item = set()
-for item in items:
-    if item in unique_item:
-        print("duplicate item found:", item)
-        break
-    unique_item.add(item)
+# items = ["apple", "banana", "orange", "apple", "mango"]
+# unique_item = set()
+# for item in items:
+#     if item in unique_item:
+#         print("duplicate item found:", item)
+#         break
+#     unique_item.add(item)
+
+#1. Write a Python program to count the number of vowels in a given string.
+
+# str = "aniket"
+# # vov = ["a", "e" , "o", "i", "u"]
+# for i in str:
+#     vov = "aeiou"
+#     count_vov = 0 
+#     if i == vov:
+#         count_vov += 1
+#     print(count_vov)
+
+#  Write a Python program to count the number of digits in a given number.
+
+
+
+
+
+# x = "helloeh"
+
+# occursence = 0 
+
+# for i in x:
+#     if i == "h":
+#         occursence += 1
+
+
+# print("occurennce of h" ,occursence)
+   
+#  Write a Python program that takes a list of strings and converts each string to uppercase.
+
+# lst = ["annkad", "ada", "akdase"]
+# for i in lst:
+#     print(i.upper())    
+
+# Write a Python program to count positive and negative numbers in a list.
+# numbers = [1, -2, 3, -4, 5, 6, -7, -8, 9, 10]       
+# positive_count = 0
+# negative_count = 0          
+# for num in numbers:
+#     if num > 0:
+#         positive_count += 1
+#     elif num < 0:
+#         negative_count += 1     
+# print("Positive numbers:", positive_count)
+# print("Negative numbers:", negative_count)
+    
+
+# Write a Python program to remove duplicates from a list using a for loop.
+
+# items = [1, 2, 2, 3, 4, 4, 5]
+# unique_items = [] 
+# for item in items:
+#     if item not in unique_items:
+#         unique_items.append(item)
+
+# print(unique_items)
+
+# inp = input("enter your message :")
+# vovels = "aeiou"
+# count_vov = 0
+# for i in inp:
+#     if i in vovels:
+#         count_vov += 1
+
+# print(count_vov)        
+        
+
+
+
+# x = "hello1234"
+# num = "0123456789"
+# count = 0 
+# for i in x:
+#     if i.isdigit():
+#         count +=1
+
+# print(count)   
+# 
+num_lst = [1 ,2, 3, 4, 5, 6, 7, 8, 9, 10]
+new_lst = []
+for i in num_lst:
+    if (i % 2 ) == 0:
+        temp = int(str(i) * i)
+        new_lst.append(temp)
+        temp = ""
+    else:
+        new_lst.append(i)
+
+print(new_lst)
