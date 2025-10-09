@@ -53,4 +53,42 @@
 #     rec_fn(lst, idx+1)
 # rec_fn(lst)
 
+# def is_even():
+#     x = int(input("Enter a number :"))
+#     if x % 2 == 0:
+#         print(f"{x} is a even number")
+#     else:
+#         print(f"{x} is an odd number")
 
+# is_even()
+
+
+# def count_vovels():
+#     string = input("enter a string: ")
+#     vovels = "aeiou"
+#     vov_count = 0
+#     for i in string:
+#         if i in vovels:
+#             vov_count += 1
+#     print(vov_count)
+
+# count_vovels()
+
+# lst = [1, -2 , 3, 4, 7 , -9]
+
+# def print_even_numbers():
+#     even_numbers = []
+#     for i in lst:
+#         if i > 0 :
+#             even_numbers.append(i)
+#     print(even_numbers)
+# print_even_numbers()
+
+
+def rev_string():
+    str = input("enter a string : ")
+    reverse = ""
+    for i in str:
+        reverse = i + reverse
+    print(reverse)
+rev_string()
