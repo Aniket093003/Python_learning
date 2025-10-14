@@ -85,10 +85,10 @@
 # print_even_numbers()
 
 
-def rev_string():
-    str = input("enter a string : ")
-    reverse = ""
-    for i in str:
-        reverse = i + reverse
-    print(reverse)
-rev_string()
+# def rev_string():
+#     str = input("enter a string : ")
+#     reverse = ""
+#     for i in str:
+#         reverse = i + reverse
+#     print(reverse)
+# rev_string()
