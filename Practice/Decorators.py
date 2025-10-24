@@ -23,7 +23,7 @@ def debug(func):
     def wrapper(*args, **kwargs):
         args_values = ', '.join(str(arg) for arg in args)
         kwarhs_value = ', '.join(f"{k}={v}"for k, v in kwargs)
-        print(f"{func.__name__} and {args_values}")
+        print(f"{func.__name__} and {args_values} and {kwarhs_value}")
         return func(*args, **kwargs)
         
     return wrapper
