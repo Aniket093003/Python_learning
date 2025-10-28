@@ -1,0 +1,3 @@
+1, aniket, 60000
+2, manish, 70000
+3, saurav, 25000
