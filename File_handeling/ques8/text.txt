@@ -1,0 +1,1 @@
+Write a Python 4 program to  7 count vowels, 8 consonants, digits, and special % # characters in a file.
