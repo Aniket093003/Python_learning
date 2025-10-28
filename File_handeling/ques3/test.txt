@@ -1,0 +1,5 @@
+
+This is the first line of the file.
+The file is being read sequentially, one line at a time.
+Python's file object supports iteration, making this process very clean and memory-efficient.
+This is the final line.
