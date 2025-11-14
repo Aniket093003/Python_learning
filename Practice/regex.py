@@ -20,5 +20,5 @@ txt = "afkjhaeiu faejfn kwrq4 fajfb"
 # res = re.findall(pattern , txt)
 # print(res)
 ###5
-res = re.sub("\w", "#", txt)
-print(res)
+# res = re.sub("\w", "#", txt)
+# print(res)
