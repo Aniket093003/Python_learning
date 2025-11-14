@@ -1,5 +1,5 @@
-import re 
-txt = "afkjhaeiu faejfn kwrq4 fajfb"
+# import re 
+# txt = "afkjhaeiu faejfn kwrq4 fajfb"
 
 # result = re.findall("\d" , txt)
 # print(result)
