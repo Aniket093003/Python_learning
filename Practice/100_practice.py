@@ -75,7 +75,7 @@
 
 # print(factorial)
     
-# Print the Fibonacci sequence up to n terms.
+# Print the onacci sequence up to n terms.
 # n = 5 
 # finonacci = [0 , 1]
 
